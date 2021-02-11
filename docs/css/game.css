@@ -78,9 +78,9 @@ background-position: center;
 .lost .player {
   background-image: url(imagenes/player_muerto.png);
 }
-.won .player {
-  box-shadow: -4px -7px 8px rgb(0, 250, 42), 4px -7px 8px rgb(0, 250, 42);
-}
+.won .player {background-image: url(imagenes/playerwin.png);
+  background-size: cover;
+  background-position: center; }
 #vidas{
   position: absolute;
   z-index: 9999999999999;
